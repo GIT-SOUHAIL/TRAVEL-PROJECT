@@ -8,7 +8,7 @@ import { AnimatePresence, motion } from "framer-motion"
 import { useState } from "react"
 
 const Navabar = () => {
-  const [bar , setBar] = useState(true)
+  const [bar , setBar] = useState(false)
   const change = () => {
     setBar(prev => !prev)
   }
